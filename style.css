@@ -1,25 +1,41 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
-    sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   list-style: none;
   text-decoration: none;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+.link{
+    color: #06c;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-weight: 600;
+}
+h2{
+    font-weight: 400;
+}
+.collection-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
 }
 
 /* *******Navbar******* */
 
 nav {
   background-color: #000;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
 nav ul {
-  width: 60%;
-  height: 3rem;
+  width: 62%;
+  height: 2.8rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -33,4 +49,38 @@ ion-icon{
     font-size: 17px;
     margin-top: 5px;
 }
+
+/* ******Header Section*****    #fbfbfd;*/
+.header-message{
+    height: 3rem;
+    background-color: #fbfbfd;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-message p{ 
+    font-size: 15px;
+}
+
+.header-section{
+   margin-top: 3.2rem;
+}
+.header-section h1{
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+}
+.header-section h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.header-section h4{
+    font-size: 1.3rem;
+    line-height: 0.8rem;
+    font-weight: 600;
+}
+.header-section a{
+    font-size: 1.4rem;
+}
+
 
