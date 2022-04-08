@@ -22,7 +22,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fbfbfd;
+    /* background-color: #fbfbfd; */
 }
 
 /* *******Navbar******* */
@@ -34,7 +34,7 @@ nav {
   width: 100%;
 }
 nav ul {
-  width: 62%;
+  width: 80%;
   height: 2.8rem;
   margin: auto;
   display: flex;
@@ -68,7 +68,7 @@ ion-icon{
 }
 .header-section h1{
     font-size: 3.8rem;
-    line-height: 3.8rem;
+    /* line-height: 3.8rem; */
 }
 .header-section h2{
     font-size: 2rem;
@@ -82,5 +82,32 @@ ion-icon{
 .header-section a{
     font-size: 1.4rem;
 }
+.iphone-se{
+    position: absolute;
+    left:900px;
+    top: 900px;
+    font-size: 2rem;
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 0 6px;
+    
+}
+
+/* ******ipda air Section***** */
+.ipad-air{
+    background-color: #000;
+    margin-top: 100px;
+}
+.ipad-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.ipad-col{
+    color: #ccc;
+}
+
+
 
 
